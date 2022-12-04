@@ -1,0 +1,68 @@
+
+body {
+background:rgb(6, 204, 121);
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:90%;
+}
+
+.wrapper {
+width: auto;
+margin: auto;
+color:black;
+text-align:center;
+
+}
+
+h1 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+h2{
+    font-family: 'Roboto', sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 3.1em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align:center;
+    
+  }
+  h3{
+    font-family: 'Roboto', sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align:center;
+  }
+#mins,#seconds, #tens{
+  font-size:10em;
+}
+.button {
+  display: inline-block;
+  padding: 30px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #d72121;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 1px #999;
+}
+
+.button:hover {background-color: rgb(0, 200, 10)}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
